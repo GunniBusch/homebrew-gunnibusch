@@ -6,10 +6,10 @@ class Edit < Formula
   license "BSD-3-Clause"
 
   bottle do
-    root_url "https://github.com/GunniBusch/homebrew-gunnibusch/releases/download/edit-0.1.0"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "48990abe40501e3616dac1e5b689a61547629c0c0d8ae1839880dc5608132bd1"
-    sha256 cellar: :any_skip_relocation, arm64_linux:  "05a2d169af5d07ced18574969edfa824ea1f8f80527a4373bce1ba04507c2a51"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "310be9e5e4fea34628d214204297c8cf32b6478040fcd05c0e7144119b54afe6"
+    root_url "https://github.com/GunniBusch/homebrew-gunnibusch/releases/download/edit-0.2.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "316cf94090774d9da4c7d8bd0b9cc3bc1dba99a4fe4d6761b696218de9b04d71"
+    sha256 cellar: :any_skip_relocation, arm64_linux:  "35714bb54bf2d4a943e15af52e1f4705f10ecc7367da37a519b5d58df8d0577f"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "996ea4259b8eb9f1e708943c389be3d53eb488cac88e019eeb90f358ed6e4502"
   end
 
   depends_on "rust" => :build
