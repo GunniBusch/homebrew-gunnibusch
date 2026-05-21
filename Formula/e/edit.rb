@@ -1,8 +1,8 @@
 class Edit < Formula
   desc "Tiny Unix editor launcher for EDIT_EDITOR, VISUAL, EDITOR env or vi"
   homepage "https://github.com/GunniBusch/edit"
-  url "https://github.com/GunniBusch/edit/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "26aa65f6d9168bf062dd7d0cdf35af15aa9bbecb518a85348c1b3937fbf095b0"
+  url "https://github.com/GunniBusch/edit/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "2e9361c63c38cd155857bb0fe1ea96628efa0d4bfb18e34c0778a6ef44f90591"
   license "BSD-3-Clause"
 
   bottle do
